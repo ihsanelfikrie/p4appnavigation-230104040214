@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Navio</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">Navigation Demo</string>
+    <string name="home_subtitle">Choose a navigation pattern to explore</string>
+
+    <!-- Menu Cards -->
+    <string name="menu_start_activity">Start Activity</string>
+    <string name="menu_start_activity_desc">Open Activity B from Activity A using Intent</string>
+
+    <string name="menu_send_data">Send Data</string>
+    <string name="menu_send_data_desc">Send Name and NIM from Activity C to Activity D</string>
+
+    <string name="menu_back_stack">Back Stack</string>
+    <string name="menu_back_stack_desc">Multi-step navigation demonstrating back stack behavior</string>
+
+    <string name="menu_hub">Activity + Fragment</string>
+    <string name="menu_hub_desc">Bottom navigation with Dashboard, Messages, and Profile</string>
+
+    <string name="try_demo">Try Demo</string>
+
+    <!-- Activity A/B -->
+    <string name="activity_a_title">Activity A</string>
+    <string name="activity_a_desc">This is Activity A. Tap the button below to navigate to Activity B using an Intent.</string>
+    <string name="open_detail">Open Detail (via Intent)</string>
+
+    <string name="activity_b_title">Activity B</string>
+    <string name="activity_b_success">Success!</string>
+    <string name="activity_b_desc">You have successfully navigated from Activity A to Activity B using an explicit Intent.</string>
+
+    <!-- Activity C/D -->
+    <string name="activity_c_title">Activity C</string>
+    <string name="activity_c_desc">Enter your information below:</string>
+    <string name="label_name">Name</string>
+    <string name="label_student_id">Student ID</string>
+    <string name="send_to_detail">Send to Detail</string>
+    <string name="error_empty_fields">Please fill in all fields</string>
+    <string name="error_invalid_nim">Student ID must be 10 digits</string>
+
+    <string name="activity_d_title">Activity D</string>
+    <string name="activity_d_success">Data Received!</string>
+    <string name="received_name">Name: %s</string>
+    <string name="received_nim">Student ID: %s</string>
+    <string name="resend_edit">Resend / Edit</string>
+
+    <!-- Back Stack -->
+    <string name="step_title">Step %d of 3</string>
+    <string name="step_desc">You are currently on Step %d. Continue to see how the back stack accumulates.</string>
+    <string name="continue_to_next">Continue to Step %d</string>
+    <string name="clear_to_home">Clear to Home</string>
+    <string name="stack_summary">Stack Summary</string>
+
+    <!-- Hub (Bottom Navigation) -->
+    <string name="hub_title">Hub</string>
+    <string name="tab_dashboard">Dashboard</string>
+    <string name="tab_messages">Messages</string>
+    <string name="tab_profile">Profile</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_welcome">Welcome to Dashboard</string>
+    <string name="dashboard_desc">This demonstrates a Fragment-like layout within a single Activity using Compose.</string>
+
+    <!-- Messages -->
+    <string name="messages_title">Messages</string>
+    <string name="message_preview">Tap to view details</string>
+
+    <!-- Message Detail -->
+    <string name="message_detail_title">Message Detail</string>
+    <string name="message_from">From: %s</string>
+    <string name="message_content">Content: %s</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_name">John Doe</string>
+    <string name="profile_email">john.doe@example.com</string>
+    <string name="profile_bio">Android Developer | Compose Enthusiast</string>
+
+    <!-- Common -->
+    <string name="back">Back</string>
+</resources>

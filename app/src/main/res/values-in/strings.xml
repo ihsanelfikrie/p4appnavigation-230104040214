@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Navio</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">Demo Navigasi</string>
+    <string name="home_subtitle">Pilih pola navigasi untuk dijelajahi</string>
+
+    <!-- Menu Cards -->
+    <string name="menu_start_activity">Mulai Activity</string>
+    <string name="menu_start_activity_desc">Buka Activity B dari Activity A menggunakan Intent</string>
+
+    <string name="menu_send_data">Kirim Data</string>
+    <string name="menu_send_data_desc">Kirim Nama dan NIM dari Activity C ke Activity D</string>
+
+    <string name="menu_back_stack">Back Stack</string>
+    <string name="menu_back_stack_desc">Navigasi multi-langkah yang mendemonstrasikan perilaku back stack</string>
+
+    <string name="menu_hub">Activity + Fragment</string>
+    <string name="menu_hub_desc">Navigasi bawah dengan Dashboard, Pesan, dan Profil</string>
+
+    <string name="try_demo">Coba Demo</string>
+
+    <!-- Activity A/B -->
+    <string name="activity_a_title">Activity A</string>
+    <string name="activity_a_desc">Ini adalah Activity A. Ketuk tombol di bawah untuk navigasi ke Activity B menggunakan Intent.</string>
+    <string name="open_detail">Buka Detail (via Intent)</string>
+
+    <string name="activity_b_title">Activity B</string>
+    <string name="activity_b_success">Berhasil!</string>
+    <string name="activity_b_desc">Anda telah berhasil bernavigasi dari Activity A ke Activity B menggunakan Intent eksplisit.</string>
+
+    <!-- Activity C/D -->
+    <string name="activity_c_title">Activity C</string>
+    <string name="activity_c_desc">Masukkan informasi Anda di bawah ini:</string>
+    <string name="label_name">Nama</string>
+    <string name="label_student_id">NIM</string>
+    <string name="send_to_detail">Kirim ke Detail</string>
+    <string name="error_empty_fields">Mohon isi semua kolom</string>
+    <string name="error_invalid_nim">NIM harus 10 digit</string>
+
+    <string name="activity_d_title">Activity D</string>
+    <string name="activity_d_success">Data Diterima!</string>
+    <string name="received_name">Nama: %s</string>
+    <string name="received_nim">NIM: %s</string>
+    <string name="resend_edit">Kirim Ulang / Edit</string>
+
+    <!-- Back Stack -->
+    <string name="step_title">Langkah %d dari 3</string>
+    <string name="step_desc">Anda saat ini berada di Langkah %d. Lanjutkan untuk melihat bagaimana back stack bertambah.</string>
+    <string name="continue_to_next">Lanjut ke Langkah %d</string>
+    <string name="clear_to_home">Bersihkan ke Home</string>
+    <string name="stack_summary">Ringkasan Stack</string>
+
+    <!-- Hub (Bottom Navigation) -->
+    <string name="hub_title">Hub</string>
+    <string name="tab_dashboard">Dashboard</string>
+    <string name="tab_messages">Pesan</string>
+    <string name="tab_profile">Profil</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_welcome">Selamat Datang di Dashboard</string>
+    <string name="dashboard_desc">Ini mendemonstrasikan tata letak seperti Fragment dalam satu Activity menggunakan Compose.</string>
+
+    <!-- Messages -->
+    <string name="messages_title">Pesan</string>
+    <string name="message_preview">Ketuk untuk melihat detail</string>
+
+    <!-- Message Detail -->
+    <string name="message_detail_title">Detail Pesan</string>
+    <string name="message_from">Dari: %s</string>
+    <string name="message_content">Konten: %s</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profil</string>
+    <string name="profile_name">John Doe</string>
+    <string name="profile_email">john.doe@example.com</string>
+    <string name="profile_bio">Pengembang Android | Penggemar Compose</string>
+
+    <!-- Common -->
+    <string name="back">Kembali</string>
+</resources>
